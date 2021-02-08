@@ -11,35 +11,433 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- CSS Pessoal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Queridômetro</title>
 </head>
 <body>
-    <div class="row">
-        <div class="col-md-6 centralizado bg-head-l">col-md-6</div>
-        <div class="col-md-6 centralizado bg-head-l">col-md-6</div>
+    <div class="container">
+        <div class="col">
+            <h1 class="titulo">Queridômetro</h1>
+            <h2 class="subtitulo">Emojis recebidos</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm col-md box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/Cplus.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm col-md box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/delphi.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm col-md box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/go.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/java.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/javascript.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/kotlin.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/python.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/R.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/swift.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/Cplus.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/Cplus.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm box-participante centralizado">
+                <div class="flex-row centralizado">
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil">
+                        <img src="./assets/participantes/Cplus.png" class="foto-box-participante">
+                    </a>
+                    <div class="col-sm flex-row">
+                        <a href="#">
+                            <img src="./assets/SnakeEmoji-H100.png" class="status-all statuscobra">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/VomitEmoji-H100.png" class="status-all statusvomito">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/SmileEmoji-H100.png" class="status-all statusfeliz">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/AngryEmoji-H100.png" class="status-all statusraiva">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BombEmoji-H100.png" class="status-all statusbomba">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/HeartEmoji-H100.png" class="status-all statuscoracao">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/BrokenHeartEmoji-H100.png" class="status-all statuscoracaopartido">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/PlantEmoji-H100.png" class="status-all statusplanta">
+                        </a>
+                    </div>
+                    <a href="#" alt="Ver detalhes do perfil" title="Ir para perfil"><i id="ver-participante" class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-xl-4 centralizado">col-xl-4</div>
-        <div class="col-xl-4 centralizado">col-xl-4</div>
-        <div class="col-xl-4 centralizado">col-xl-4</div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-2 centralizado">col-xs-12 col-sm-2</div>
-        <div class="col-xs-12 col-sm-2 centralizado">col-xs-12 col-sm-2</div>
-        <div class="col-xs-12 col-sm-2 centralizado">col-xs-12 col-sm-2</div>
-        <div class="col-xs-12 col-sm-2 centralizado">col-xs-12 col-sm-2</div>
-        <div class="col-xs-12 col-sm-2 centralizado">col-xs-12 col-sm-2</div>
-        <div class="col-xs-12 col-sm-2 centralizado">col-xs-12 col-sm-2</div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-4 centralizado">col-xs-12 col-sm-4</div>
-        <div class="col-xs-12 col-sm-4 centralizado">col-xs-12 col-sm-4</div>
-        <div class="col-xs-12 col-sm-4 centralizado">col-xs-12 col-sm-4</div>
-
-    </div>
-
 <!-- JS Pessoal -->
 
 </body>
