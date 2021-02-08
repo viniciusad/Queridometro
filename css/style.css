@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(252, 252, 252);
+  color: blueviolet;
+  font-weight: 700;
+  font-size: 15px;
+}
+.bg-head-l {
+  background-image: linear-gradient(
+    to right top,
+    #f25c51,
+    #fe7343,
+    #ff8c32,
+    #ffa61e,
+    #fec104
+  );
+}
+.centralizado {
+  background-color: rgb(175, 204, 108);
+  height: 100px;
+  margin: 10px 0;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
