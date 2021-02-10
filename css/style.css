@@ -59,6 +59,21 @@ body {
   border-radius: 50%;
   margin-left: -7px;
 }
+.status-modal {
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 2.5rem;
+  margin: 2px;
+  padding: 4px;
+  border: none;
+  border-radius: 50%;
+}
+.status-modal a {
+    text-decoration: none;
+}
+.status-modal img {
+    text-decoration: none;
+}
 #ver-participante {
   font-size: 1.2rem;
   color: #a0a0a0;
